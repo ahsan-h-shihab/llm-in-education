@@ -1,0 +1,121 @@
+study_id,record_id,title,year,venue,doi
+S001,1.1-145,Let AI Read First: Enhancing Reading Abilities for Individuals with Dyslexia through Artificial Intelligence,2025,Proceedings of the Extended Abstracts of the CHI Conference on Human Factors in Computing Systems,10.1145/3706599.3720113
+S002,10,A Smart Decision Support Framework: Leveraging AI and Business Intelligence for Sustainable Higher Education,2025,International Journal of Management and Data Intelligence,
+S003,100,"Using LLMs to bring evidence-based feedback into the classroom: AI-generated feedback increases secondary students’ text revision, motivation, and positive emotions",2024,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2023.100199
+S004,101,"Teacher, peer, or AI? Comparing effects of feedback sources in higher education",2025,Computers and Education Open,10.1016/j.caeo.2025.100300
+S005,102,Student engagement with ChatGPT for educational tasks: Effects of inoculation training on verification intentions and behavior,2026,Computers and Education Open,10.1016/j.caeo.2026.100335
+S006,103,"Students' use of large language models in engineering education: A case study on technology acceptance, perceptions, efficacy, and detection chances",2023,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2023.100172
+S007,104,"Examining the effect of ChatGPT usage on students' academic learning and achievement: A survey-based study in Ajman, UAE",2024,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2024.100316
+S008,105,AI-assisted language learning: ChatGPT's impact on mastering English tenses at the university level,2026,Social Sciences & Humanities Open,10.1016/j.ssaho.2026.102532
+S009,106,Effects of AI-generated adaptive feedback on statistical skills and interest in statistics: A field experiment in higher education,2025,British Journal of Educational Technology,10.1111/bjet.13609
+S010,107,Recognizing Multi-Party Epistemic Dialogue Acts During Collaborative Game-Based Learning Using Large Language Models,2025,International Journal of Artificial Intelligence in Education,10.1007/s40593-024-00436-8
+S011,108,Design and evaluation of ChatGPT-MWPS: An AI-enhanced learning system for improving primary students' mathematical word problem solving,2025,Smart Learning Environments,10.1186/s40561-025-00419-9
+S012,109,"Investigating the motivational and knowledge affordances of conversational AI using induction, concretization and exemplification in math learning",2025,British Journal of Educational Technology,10.1111/bjet.13612
+S013,11,When LLMs Learn to be Students: The SOEI Framework for Modeling and Evaluating Virtual Student Agents in Educational Interaction,2025,arXiv preprint arXiv:2410.15701,10.48550/arXiv.2410.15701
+S014,110,A closer look at ChatGPT's role in concept map generation for education,2026,Interactive Learning Environments,10.1080/10494820.2025.2497110
+S015,111,The cognitive impact of ChatGPT in higher education: A systematic review of critical and creative thinking outcomes,2026,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2026.100571
+S016,112,Learning with large language models: Beyond prompt engineering,2026,Education and Information Technologies,10.1007/s10639-026-13924-2
+S017,113,Can Artificial Intelligence Language Models Effectively Address Dental Trauma Questions?,2025,Dental Traumatology,10.1111/edt.13063
+S018,114,Evaluating the impact of using ChatGPT on EFL students' argumentative skills,2026,Discover Education,10.1007/s44217-026-01153-1
+S019,115,"ChatGPT-Assisted Lesson Planning for Children’s STEAM Arts Education: An Experimental Study on Benefits, Challenges, Methods, and a Prompt Framework",2025,International Journal of Artificial Intelligence in Education,10.1007/s40593-025-00513-6
+S020,117,Using ChatGPT as a lesson planning assistant with preservice secondary mathematics teachers,2025,Digital Experiences in Mathematics Education,10.1007/s40751-024-00162-9
+S021,118,The application of multimodal GenAI in lesson planning for primary school L2 Chinese vocabulary teaching: a TPACK perspective,2026,Computer Assisted Language Learning,10.1080/09588221.2026.2637725
+S022,119,AI-based adaptive feedback in simulations for teacher education: an experimental replication in the field,2025,Journal of Computer Assisted Learning,10.1111/jcal.13123
+S023,12,"Generative AI as the 'Third Eye' of Academic Advising: Ethical, Pedagogical, and Methodological Perspectives in Research Supervision",2026,Cognizance Journal of Multidisciplinary Studies,10.47760/cognizance.2026.v06i01.001
+S024,121,ChatGPT for science lesson planning: An exploratory study based on pedagogical content knowledge,2025,Education Sciences,10.3390/educsci15030338
+S025,122,AI-based task development in teacher education: an empirical study on using ChatGPT to create complex multilingual tasks in the context of primary education,2025,Education and Information Technologies,10.1007/s10639-025-13673-8
+S026,123,Analyzing the effect of ChatGPT on lesson plan development: An experimental approach,2025,Journal of Digital Educational Technology,10.30935/jdet/17523
+S027,124,"Integrating Generative AI in Teacher Education: Pre-Service Teachers’ Perspectives, Attitudes, and Design Challenges",2026,Journal of Research in Childhood Education,10.1080/02568543.2025.2581712
+S028,125,Can students judge like experts? A large-scale study on the pedagogical quality of AI and human personalized formative feedback,2026,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2025.100533
+S029,126,Artificial intelligence-powered decision support system for operational decision-making in the ICT department of a selected African university,2024,"African Journal of Science, Technology, Innovation and Development",10.1080/20421338.2024.2376916
+S030,127,A Prospective Analysis on the Role of the Virtual Educational Director,2025,Procedia Computer Science,10.1016/j.procs.2025.03.165
+S031,129,Understanding the diffusion of AI-generative (ChatGPT) in higher education: Does students' integrity matter?,2024,Computers in Human Behavior Reports,10.1016/j.chbr.2024.100402
+S032,13,ChatGPT in PhD Mentoring: Exploring the Potential of Generative AI for Academic Guidance and Sustainable Educational Practices,2025,Preprints,10.20944/preprints202502.0041.v1
+S033,130,Are university teachers ready for generative artificial intelligence? Unpacking faculty anxiety in the ChatGPT era,2025,Education and Information Technologies,10.1007/s10639-025-13585-7
+S034,132,Generative AI in Action: Acceptance and Use Among Higher Education Staff Pre- and Post-training,2025,"Technology, Knowledge and Learning",10.1007/s10758-025-09915-w
+S035,133,ChatGPT adoption and its influence on faculty well-being: An empirical research in higher education,2025,Education and Information Technologies,10.1007/s10639-024-12871-0
+S036,134,Decision-making criteria for AI tools in digital education,2025,Digital Engineering,10.1016/j.dte.2025.100069
+S037,135,AI-Enhanced Decision Support Systems for Strategic Higher Education Management: A Framework for Improving Decision-Making Efficiency and Stakeholder Trust,2025,International Journal of Academic Research in Business and Social Sciences,10.6007/IJARBSS/v15-i10/26819
+S038,136,A Review of Artificial Intelligence-Based Dyslexia Detection Techniques,2024,Diagnostics,10.3390/diagnostics14212362
+S039,137,Using Eye-Tracking to Assess Dyslexia: A Systematic Review of Emerging Evidence,2024,Education Sciences,10.3390/educsci14111256
+S040,138,DyslexiaNet: Examining the Viability and Efficacy of Eye Movement-Based Deep Learning for Dyslexia Detection,2025,Journal of Eye Movement Research,10.3390/jemr18050056
+S041,14,"ChatGPT and AI Chatbots in Education: An Umbrella Review of Systematic Reviews, Scoping Reviews, and Meta-Analyses",2025,International Journal of Education and Information Technologies,10.46300/9109.2025.19.11
+S042,141,Deep Learning Applications for Dyslexia Prediction,2023,Applied Sciences,10.3390/app13052804
+S043,142,A survey of EEG-based approaches to classroom attention assessment in education,2025,Information,10.3390/info16100860
+S044,144,Impact of artificial intelligence on special needs education,2025,Journal of Asian Scientific Research,10.55493/5003.v15i4.5779
+S045,146,AI for Accessible Education: Personalized Audio-Based Learning for Blind Students,2025,,10.48550/arXiv.2504.17117
+S046,147,"Utilization of Artificial Intelligence and Assistive Technology in Autism: Diagnosis, Treatment, and Education Applications---A Systematic Literature Review",2025,Educational Process: International Journal,10.22521/edupij.2025.17.350
+S047,148,Detecting Phase-Synchrony Connectivity Anomalies in EEG Signals. Application to Dyslexia Diagnosis,2021,Sensors,10.3390/s21217061
+S048,149,Determining the Difficulties of Students With Dyslexia via Virtual Reality and Artificial Intelligence: An Exploratory Analysis,2024,,10.1109/metroxraine54828.2022.9967589
+S049,150,Exploring Artificial Intelligence in Inclusive Education: A Systematic Review of Empirical Studies,2025,Applied Sciences,10.3390/app152312624
+S050,2,"A systematic review of AI, VR, and LLM applications in special education: Opportunities, challenges, and future directions",2025,Education and Information Technologies,10.1007/s10639-025-13550-4
+S051,20,Improving large language model (LLM) performance with retrieval augmented generation (RAG): development of a transparent generative artificial intelligence (GEN AI) university support system for educational purposes,2025,Journal of Big Data and Artificial Intelligence,10.54116/jbdai.v3i1.50
+S052,21,A Systematic Scoping Review of Self-Regulated Learning With AI in Language Education,2025,International Journal of Applied Linguistics,10.1111/ijal.70030
+S053,22,Generative AI for Customizable Learning Experiences,2024,Sustainability,10.3390/su16073034
+S054,24,Empowering Women Across Generations: AI-Enhanced Learning for Inclusive Leadership Development,2026,Administrative Sciences,10.3390/admsci16020093
+S055,25,Exploring the potential of LLM to enhance teaching plans through teaching simulation,2025,npj Science of Learning,10.1038/s41539-025-00300-x
+S056,26,Human-in-the-loop in artificial intelligence in education: A review and entity-relationship (ER) analysis,2024,Computers in Human Behavior: Artificial Humans,10.1016/j.chbah.2024.100053
+S057,27,Multi-Agent Systems in Education: A Survey from the Trustworthiness Perspective,2025,Authorea Preprints,10.36227/techrxiv.176704820.01980102/v1
+S058,3,AI and Creativity in Entrepreneurship Education: A Systematic Review of LLM Applications,2025,AI,10.3390/ai6050100
+S059,32,"Generative AI in Higher Education Constituent Relationship Management (CRM): Opportunities, Challenges, and Implementation Strategies",2025,Computers,10.3390/computers14030101
+S060,35,AcademicRAG: Knowledge Graph Enhanced Retrieval-Augmented Generation for Academic Resource Discovery,2025,,
+S061,36,A LoRA-Based Approach to Fine-Tuning LLMs for Educational Guidance in Resource-Constrained Settings,2025,Research Square,10.21203/rs.3.rs-8431533/v1
+S062,38,"Exploring Large Language Models Through a Neurodivergent Lens: Use, Challenges, Community-Driven Workarounds, and Concerns",2025,Proceedings of the ACM on Human-Computer Interaction,10.1145/3701194
+S063,39,Artificial intelligence in educational leadership: a comprehensive taxonomy and future directions,2025,International Journal of Educational Technology in Higher Education,10.1186/s41239-025-00517-1
+S064,40,Measuring the Impact of Large Language Models on Academic Success and Quality of Life Among Students with Visual Disability: An Assistive Technology Perspective,2025,Bioengineering,10.3390/bioengineering12101056
+S065,42,Stem education and ICT-enhanced tools for students with disabilities: A five-year review,2026,Universal Access in the Information Society,10.1007/s10209-025-01282-8
+S066,44,The Role of Large Language Models in Education Simulations: A Systematic Mapping Study,2025,,
+S067,45,Human--AI Learning: Architecture of a Human--AgenticAI Learning System,2025,Information,10.3390/info16121101
+S068,48,Autonomous AI Agents for Campus Knowledge Hubs: A Secure and Intelligent System Architecture,2025,"International Journal of Artificial Intelligence, Data Science, and Machine Learning",10.63282/3050-9262.IJAIDSML-V6I4P120
+S069,49,"Navigating the Future of Education: A Review on Telecommunications and AI Technologies, Ethical Implications, and Equity Challenges",2026,Telecom,10.3390/telecom7010002
+S070,51,Supporting Student Decisions on Learning Recommendations: An LLM-Based Chatbot with Knowledge Graph Contextualization for Conversational Explainability and Mentoring,2024,First International Workshop on Generative AI for Learning Analytics,10.35542/osf.io/ervym
+S071,52,Neuro-symbolic synergy in education: A survey of LLM-knowledge graph integration for explainable reasoning and emotion-aware student support,2026,Smart Learning Environments,10.1186/s40561-025-00423-z
+S072,53,"Large language models in education: A systematic review of empirical applications, benefits, and challenges",2026,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2025.100529
+S073,54,A comprehensive review of large language models: issues and solutions in learning environments,2025,Discover Sustainability,10.1007/s43621-025-00815-8
+S074,55,Task automation and instructional planning support with large language models: a systematic review,2026,Frontiers in Education,10.3389/feduc.2026.1733861
+S075,56,A comparison of lessons planned by different publicly available large language models in the context of physical education: an expert survey,2026,Frontiers in Education,10.3389/feduc.2026.1765699
+S076,57,How Reliable Are Large Language Models in Analyzing the Quality of Written Lesson Plans? A Mixed-Methods Study From a Teacher Internship Program,2026,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2025.100538
+S077,58,How AI feedback supports lesson planning in vocational teacher education: a longitudinal intervention study using an analytical AI platform,2025,Empirical Research in Vocational Education and Training,10.1186/s40461-025-00202-7
+S078,59,Harnessing Large Language Models for Scalable and Effective Formative Assessment in Higher Education: A Review,2025,Trends in Higher Education,10.3390/higheredu4040065
+S079,60,Assessing the proficiency of large language models in automatic feedback generation: An evaluation study,2024,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2024.100299
+S080,61,Harnessing large language models to auto-evaluate the student project reports,2024,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2024.100268
+S081,62,Large language models as evaluators in education: Verification of feedback consistency and accuracy,2025,Applied Sciences,10.3390/app15020671
+S082,64,AI vs. teacher feedback on EFL argumentative writing: a quantitative study,2025,Frontiers in Education,10.3389/feduc.2025.1614673
+S083,65,Effects of adaptive feedback generated by a large language model: A case study in teacher education,2025,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2024.100349
+S084,66,Embracing LLM Feedback: the role of feedback providers and provider information for feedback effectiveness,2024,Frontiers in education,10.3389/feduc.2024.1461362
+S085,67,Mapping the emerging research landscape on applications of ChatGPT in Language teacher education: A systematic narrative literature review,2025,Discover Artificial Intelligence,10.1007/s44163-025-00631-z
+S086,68,Simulation of teaching behaviours in intelligent tutoring systems: a review using large language models,2025,Artificial Intelligence Review,10.1007/s10462-025-11464-8
+S087,69,Artificial intelligence in teaching and teacher professional development: A systematic review,2025,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2024.100355
+S088,7,LLM Agents for Education: Advances and Applications,2026,arXiv preprint arXiv:2503.11733,10.48550/arXiv.2503.11733
+S089,70,"Open-Source Large Language Models in Education: A Narrative Review of Evidence, Pedagogical Roles, and Learning Outcomes",2026,AI Educ.,10.3390/aieduc2010004
+S090,71,Can ChatGPT replace the teacher in assessment? A review of research on the use of large language models in grading and providing feedback,2026,Applied Sciences,10.3390/app16020680
+S091,72,Reimagining feedback through generative AI in engineering education,2026,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2026.100574
+S092,73,The role of large language models in personalized learning: A systematic review of educational impact,2025,Discover Sustainability,10.1007/s43621-025-01094-z
+S093,74,Child-centered integration of generative AI in early learning: Balancing promises and challenges,2025,"AI, Brain and Child",10.1007/s44436-025-00023-1
+S094,75,Strategies for developing AI competencies in higher education,2026,Frontiers in Education,10.3389/feduc.2025.1683909
+S095,76,Classroom AI: Large language models as grade-specific teachers,2026,npj Artificial Intelligence,10.1038/s44387-026-00081-7
+S096,77,Generative AI in higher education: A global perspective of institutional adoption policies and guidelines,2025,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2024.100348
+S097,78,Waiting for the revolution: how higher education institutions initially responded to ChatGPT,2025,Higher Education,10.1007/s10734-024-01256-4
+S098,79,The roles of AI and educational leaders in AI-assisted administrative decision-making: a proposed framework for symbiotic collaboration,2025,The Australian Educational Researcher,10.1007/s13384-024-00771-8
+S099,8,A systematic review of large language models and their implications in medical education,2024,Medical Education,10.1111/medu.15402
+S100,80,Artificial Intelligence Governance in Higher Education: The Role of Knowledge-Based Strategies in Fostering Legal Awareness and Ethical Artificial Intelligence Literacy,2025,Societies,10.3390/soc15060144
+S101,81,Generative AI governance in higher education: a case study from Africa,2025,Frontiers in Political Science,10.3389/fpos.2025.1666661
+S102,82,Generative AI Governance Model in Educational Research,2025,Frontiers in Education,10.3389/feduc.2025.1594343
+S103,83,Guiding the uncharted: the emerging (and missing) policies on Generative AI in higher education,2025,Frontiers in Education,10.3389/feduc.2025.1644081
+S104,84,"Artificial intelligence in higher education institutions: Review of innovations, opportunities and challenges",2025,Frontiers in Education,10.3389/feduc.2025.1530247
+S105,85,Empowering student self-regulated learning and science education through ChatGPT: A pioneering pilot study,2024,British Journal of Educational Technology,10.1111/bjet.13454
+S106,86,"Analysing nontraditional students' ChatGPT interaction, engagement, self-efficacy and performance: A mixed-methods approach",2025,British Journal of Educational Technology,10.1111/bjet.13588
+S107,87,Extended TAM based acceptance of AI-Powered ChatGPT for supporting metacognitive self-regulated learning in education: A mixed-methods study,2024,Heliyon,10.1016/j.heliyon.2024.e29317
+S108,88,"Empowering ChatGPT with guidance mechanism in blended learning: Effect of self-regulated learning, higher-order thinking skills, and knowledge construction",2024,International Journal of Educational Technology in Higher Education,10.1186/s41239-024-00447-4
+S109,89,"“ChatGPT is like a study buddy, a teacher and sometimes just a friend”: A longitudinal exploration of students' interactions, perception and acceptance",2025,Interactive Learning Environments,10.1080/10494820.2025.2509276
+S110,9,Enhancing Academic Decision-Making: A Pilot Study of AI-Supported Journal Selection in Higher Education,2025,Innovative Higher Education,10.1007/s10755-025-09791-3
+S111,90,Personality traits for self-regulated learning with generative artificial intelligence: The case of ChatGPT,2024,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2024.100315
+S112,91,A classification tool to foster self-regulated learning with generative artificial intelligence by applying self-determination theory: A case of ChatGPT,2024,Educational technology research and development,10.1007/s11423-024-10366-w
+S113,92,Who is most likely to accept AI chatbots? A sequential explanatory mixed-methods study of personality and ChatGPT acceptance for language learning,2025,Innovation in Language Learning and Teaching,10.1080/17501229.2025.2555515
+S114,93,Developing generative AI literacies through self-regulated learning: A human-centered approach,2025,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2025.100482
+S115,94,Technology-based interactive guidance to promote learning performance and self-regulation: A chatbot-assisted self-regulated learning approach,2025,Educational Technology Research and Development,10.1007/s11423-025-10478-x
+S116,95,"Conversational AI in children's home literacy learning: Effectiveness, advantages, challenges, and family perception",2026,Computers and Education: Artificial Intelligence,10.1016/j.caeai.2026.100549
+S117,96,Assessing strategic use of artificial intelligence in self-regulated learning: Instrument development and evidence from Chinese university students,2025,International Journal of Educational Technology in Higher Education,10.1186/s41239-025-00567-5
+S118,97,Uncovering personalized L2 motivation and self-regulation in ChatGPT-assisted language learning: A hybrid PLS-SEM-ANN approach,2025,Computers in Human Behavior Reports,10.1016/j.chbr.2024.100539
+S119,98,How do students use ChatGPT as a writing support?,2025,Journal of Adolescent & Adult Literacy,10.1002/jaal.1373
+S120,99,Unpacking help-seeking process through multimodal learning analytics: A comparative study of ChatGPT vs Human expert,2025,Computers & Education,10.1016/j.compedu.2024.105198

@@ -1,0 +1,301 @@
+{
+ "_note": "Numbers as stated in the paper (two tables parsed mechanically; headline statements transcribed). These are the expected values for scripts/reproduce_all.py.",
+ "accounting_chain": {
+  "records": 150,
+  "unique_studies_in_corpus": 149,
+  "synthesized_records": 121,
+  "synthesized_unique_studies": 120,
+  "primary_studies": 86,
+  "secondary_syntheses": 34,
+  "records_not_synthesized": 29
+ },
+ "tiers_all_studies": {
+  "T0": 7,
+  "T1": 20,
+  "T2": 34,
+  "T3": 5,
+  "T4": 20,
+  "S": 34
+ },
+ "headline": {
+  "primary_studies": 86,
+  "outcome_T3_or_T4": 25,
+  "comparative_T4": 20,
+  "share_of_primary": {
+   "T2": 39.5,
+   "T1": 23.3,
+   "T4": 23.3,
+   "T0": 8.1,
+   "T3": 5.8,
+   "outcome_T3_T4": 29.1
+  }
+ },
+ "subcategories_without_outcome_evidence": [
+  "Professional Upskilling",
+  "Teaching Practice & Rehearsal",
+  "Academic & Administrative Operations",
+  "AI Governance & Institutional Policy",
+  "Assistive Interfaces",
+  "Barrier Reduction"
+ ],
+ "table1_corpus_structure": {
+  "domains": {
+   "Lifelong & Informal Learning": {
+    "records": 24,
+    "synthesized": 23,
+    "records_by_subcategory": {
+     "Self-Directed Study": 14,
+     "Hobbyist Exploration": 1,
+     "Professional Upskilling": 9
+    }
+   },
+   "Learner Support in Formal Education": {
+    "records": 29,
+    "synthesized": 29,
+    "records_by_subcategory": {
+     "Personalized Tutoring": 13,
+     "Skill Reinforcement": 8,
+     "Curriculum Tools": 8
+    }
+   },
+   "Instructional Support": {
+    "records": 31,
+    "synthesized": 29,
+    "records_by_subcategory": {
+     "Teaching Practice & Rehearsal": 5,
+     "Content Creation": 10,
+     "Assessment & Feedback": 16
+    }
+   },
+   "Institutional Intelligence & Operations": {
+    "records": 44,
+    "synthesized": 24,
+    "records_by_subcategory": {
+     "Academic & Administrative Operations": 35,
+     "AI Governance & Institutional Policy": 9
+    }
+   },
+   "Accessibility & Special Education": {
+    "records": 22,
+    "synthesized": 16,
+    "records_by_subcategory": {
+     "Content Adaptation": 2,
+     "Assistive Interfaces": 4,
+     "Barrier Reduction": 16
+    }
+   }
+  }
+ },
+ "table2_evidence_maturity": {
+  "Lifelong & Informal Learning": {
+   "Self-Directed Study": {
+    "T0": 0,
+    "T1": 1,
+    "T2": 7,
+    "T3": 2,
+    "T4": 3,
+    "S": 1,
+    "N": 14,
+    "Outcome": 5
+   },
+   "Hobbyist Exploration": {
+    "T0": 0,
+    "T1": 0,
+    "T2": 0,
+    "T3": 0,
+    "T4": 1,
+    "S": 0,
+    "N": 1,
+    "Outcome": 1
+   },
+   "Professional Upskilling": {
+    "T0": 1,
+    "T1": 2,
+    "T2": 1,
+    "T3": 0,
+    "T4": 0,
+    "S": 4,
+    "N": 8,
+    "Outcome": 0
+   },
+   "TOTAL": {
+    "T0": 1,
+    "T1": 3,
+    "T2": 8,
+    "T3": 2,
+    "T4": 4,
+    "S": 5,
+    "N": 23,
+    "Outcome": 6
+   }
+  },
+  "Learner Support in Formal Education": {
+   "Personalized Tutoring": {
+    "T0": 0,
+    "T1": 4,
+    "T2": 2,
+    "T3": 1,
+    "T4": 2,
+    "S": 4,
+    "N": 13,
+    "Outcome": 3
+   },
+   "Skill Reinforcement": {
+    "T0": 0,
+    "T1": 0,
+    "T2": 2,
+    "T3": 1,
+    "T4": 4,
+    "S": 1,
+    "N": 8,
+    "Outcome": 5
+   },
+   "Curriculum Tools": {
+    "T0": 1,
+    "T1": 1,
+    "T2": 0,
+    "T3": 1,
+    "T4": 1,
+    "S": 4,
+    "N": 8,
+    "Outcome": 2
+   },
+   "TOTAL": {
+    "T0": 1,
+    "T1": 5,
+    "T2": 4,
+    "T3": 3,
+    "T4": 7,
+    "S": 9,
+    "N": 29,
+    "Outcome": 10
+   }
+  },
+  "Instructional Support": {
+   "Teaching Practice & Rehearsal": {
+    "T0": 1,
+    "T1": 1,
+    "T2": 2,
+    "T3": 0,
+    "T4": 0,
+    "S": 1,
+    "N": 5,
+    "Outcome": 0
+   },
+   "Content Creation": {
+    "T0": 0,
+    "T1": 2,
+    "T2": 4,
+    "T3": 0,
+    "T4": 2,
+    "S": 1,
+    "N": 9,
+    "Outcome": 2
+   },
+   "Assessment & Feedback": {
+    "T0": 0,
+    "T1": 4,
+    "T2": 2,
+    "T3": 0,
+    "T4": 6,
+    "S": 2,
+    "N": 14,
+    "Outcome": 6
+   },
+   "TOTAL": {
+    "T0": 1,
+    "T1": 7,
+    "T2": 8,
+    "T3": 0,
+    "T4": 8,
+    "S": 4,
+    "N": 28,
+    "Outcome": 8
+   }
+  },
+  "Institutional Intelligence & Operations": {
+   "Academic & Administrative Operations": {
+    "T0": 4,
+    "T1": 2,
+    "T2": 6,
+    "T3": 0,
+    "T4": 0,
+    "S": 5,
+    "N": 17,
+    "Outcome": 0
+   },
+   "AI Governance & Institutional Policy": {
+    "T0": 0,
+    "T1": 0,
+    "T2": 5,
+    "T3": 0,
+    "T4": 0,
+    "S": 2,
+    "N": 7,
+    "Outcome": 0
+   },
+   "TOTAL": {
+    "T0": 4,
+    "T1": 2,
+    "T2": 11,
+    "T3": 0,
+    "T4": 0,
+    "S": 7,
+    "N": 24,
+    "Outcome": 0
+   }
+  },
+  "Accessibility & Special Education": {
+   "Content Adaptation": {
+    "T0": 0,
+    "T1": 0,
+    "T2": 0,
+    "T3": 0,
+    "T4": 1,
+    "S": 0,
+    "N": 1,
+    "Outcome": 1
+   },
+   "Assistive Interfaces": {
+    "T0": 0,
+    "T1": 0,
+    "T2": 1,
+    "T3": 0,
+    "T4": 0,
+    "S": 1,
+    "N": 2,
+    "Outcome": 0
+   },
+   "Barrier Reduction": {
+    "T0": 0,
+    "T1": 3,
+    "T2": 2,
+    "T3": 0,
+    "T4": 0,
+    "S": 8,
+    "N": 13,
+    "Outcome": 0
+   },
+   "TOTAL": {
+    "T0": 0,
+    "T1": 3,
+    "T2": 3,
+    "T3": 0,
+    "T4": 1,
+    "S": 9,
+    "N": 16,
+    "Outcome": 1
+   }
+  },
+  "ALL": {
+   "T0": 7,
+   "T1": 20,
+   "T2": 34,
+   "T3": 5,
+   "T4": 20,
+   "S": 34,
+   "N": 120,
+   "Outcome": 25
+  }
+ }
+}

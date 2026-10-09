@@ -1,0 +1,121 @@
+study_id,record_id,review_domain,review_subcategory,evidence_tier,design
+S001,1.1-145,D5,Content Adaptation,4,RCT
+S002,10,D4,Academic & Administrative Operations,0,SYSTEM_PROPOSAL
+S003,100,D3,Assessment & Feedback,4,RCT
+S004,101,D3,Assessment & Feedback,4,RCT
+S005,102,D1,Self-Directed Study,4,RCT
+S006,103,D2,Curriculum Tools,3,CORRELATIONAL_OUTCOME
+S007,104,D2,Skill Reinforcement,2,SURVEY_CORRELATIONAL
+S008,105,D2,Skill Reinforcement,4,RCT
+S009,106,D2,Skill Reinforcement,4,RCT
+S010,107,D2,Curriculum Tools,1,SYSTEM_EVAL
+S011,108,D2,Personalized Tutoring,2,MIXED
+S012,109,D2,Personalized Tutoring,4,RCT
+S013,11,D3,Teaching Practice & Rehearsal,2,MIXED
+S014,110,D2,Curriculum Tools,4,QUASI_EXPERIMENTAL
+S015,111,D2,Skill Reinforcement,S,REVIEW
+S016,112,D2,Skill Reinforcement,3,CORRELATIONAL_OUTCOME
+S017,113,D1,Professional Upskilling,1,SYSTEM_EVAL
+S018,114,D2,Skill Reinforcement,4,QUASI_EXPERIMENTAL
+S019,115,D3,Content Creation,4,QUASI_EXPERIMENTAL
+S020,117,D3,Content Creation,2,QUALITATIVE
+S021,118,D3,Content Creation,2,QUALITATIVE
+S022,119,D3,Assessment & Feedback,4,RCT
+S023,12,D3,Teaching Practice & Rehearsal,2,MIXED
+S024,121,D3,Content Creation,1,SYSTEM_EVAL
+S025,122,D3,Content Creation,2,QUALITATIVE
+S026,123,D3,Content Creation,4,RCT
+S027,124,D3,Content Creation,2,MIXED
+S028,125,D3,Assessment & Feedback,2,SURVEY_CORRELATIONAL
+S029,126,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
+S030,127,D4,Academic & Administrative Operations,0,CONCEPTUAL
+S031,129,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
+S032,13,D2,Personalized Tutoring,1,SYSTEM_EVAL
+S033,130,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
+S034,132,D1,Professional Upskilling,2,SURVEY_CORRELATIONAL
+S035,133,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
+S036,134,D4,Academic & Administrative Operations,S,REVIEW
+S037,135,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
+S038,136,D5,Barrier Reduction,S,REVIEW
+S039,137,D5,Barrier Reduction,S,REVIEW
+S040,138,D5,Barrier Reduction,1,SYSTEM_EVAL
+S041,14,D2,Curriculum Tools,S,REVIEW
+S042,141,D5,Barrier Reduction,S,REVIEW
+S043,142,D5,Barrier Reduction,S,REVIEW
+S044,144,D5,Barrier Reduction,S,REVIEW
+S045,146,D5,Assistive Interfaces,2,QUALITATIVE
+S046,147,D5,Assistive Interfaces,S,REVIEW
+S047,148,D5,Barrier Reduction,1,SYSTEM_EVAL
+S048,149,D5,Barrier Reduction,1,SYSTEM_EVAL
+S049,150,D5,Barrier Reduction,S,REVIEW
+S050,2,D5,Barrier Reduction,S,REVIEW
+S051,20,D4,Academic & Administrative Operations,0,SYSTEM_PROPOSAL
+S052,21,D1,Self-Directed Study,S,REVIEW
+S053,22,D2,Personalized Tutoring,3,CORRELATIONAL_OUTCOME
+S054,24,D1,Professional Upskilling,0,CONCEPTUAL
+S055,25,D3,Teaching Practice & Rehearsal,1,SYSTEM_EVAL
+S056,26,D4,Academic & Administrative Operations,S,REVIEW
+S057,27,D2,Personalized Tutoring,S,REVIEW
+S058,3,D1,Professional Upskilling,S,REVIEW
+S059,32,D4,Academic & Administrative Operations,2,QUALITATIVE
+S060,35,D1,Self-Directed Study,1,SYSTEM_EVAL
+S061,36,D2,Personalized Tutoring,1,SYSTEM_EVAL
+S062,38,D5,Barrier Reduction,2,QUALITATIVE
+S063,39,D4,AI Governance & Institutional Policy,S,REVIEW
+S064,40,D5,Barrier Reduction,2,SURVEY_CORRELATIONAL
+S065,42,D5,Barrier Reduction,S,REVIEW
+S066,44,D2,Curriculum Tools,S,REVIEW
+S067,45,D3,Teaching Practice & Rehearsal,0,SYSTEM_PROPOSAL
+S068,48,D4,Academic & Administrative Operations,1,SYSTEM_EVAL
+S069,49,D4,Academic & Administrative Operations,S,REVIEW
+S070,51,D2,Personalized Tutoring,1,SYSTEM_EVAL
+S071,52,D2,Personalized Tutoring,S,REVIEW
+S072,53,D2,Personalized Tutoring,S,REVIEW
+S073,54,D2,Curriculum Tools,S,REVIEW
+S074,55,D3,Content Creation,S,REVIEW
+S075,56,D3,Content Creation,1,SYSTEM_EVAL
+S076,57,D3,Assessment & Feedback,1,SYSTEM_EVAL
+S077,58,D3,Assessment & Feedback,4,QUASI_EXPERIMENTAL
+S078,59,D3,Assessment & Feedback,S,REVIEW
+S079,60,D3,Assessment & Feedback,1,SYSTEM_EVAL
+S080,61,D3,Assessment & Feedback,1,SYSTEM_EVAL
+S081,62,D3,Assessment & Feedback,1,SYSTEM_EVAL
+S082,64,D2,Skill Reinforcement,4,QUASI_EXPERIMENTAL
+S083,65,D3,Assessment & Feedback,4,RCT
+S084,66,D3,Assessment & Feedback,2,SURVEY_CORRELATIONAL
+S085,67,D1,Professional Upskilling,S,REVIEW
+S086,68,D3,Teaching Practice & Rehearsal,S,REVIEW
+S087,69,D1,Professional Upskilling,S,REVIEW
+S088,7,D4,Academic & Administrative Operations,S,REVIEW
+S089,70,D2,Curriculum Tools,S,REVIEW
+S090,71,D3,Assessment & Feedback,S,REVIEW
+S091,72,D3,Assessment & Feedback,4,QUASI_EXPERIMENTAL
+S092,73,D2,Personalized Tutoring,S,REVIEW
+S093,74,D2,Curriculum Tools,0,CONCEPTUAL
+S094,75,D1,Professional Upskilling,1,SYSTEM_EVAL
+S095,76,D2,Personalized Tutoring,1,SYSTEM_EVAL
+S096,77,D4,AI Governance & Institutional Policy,2,DOCUMENT_ANALYSIS
+S097,78,D4,AI Governance & Institutional Policy,2,QUALITATIVE
+S098,79,D4,Academic & Administrative Operations,0,CONCEPTUAL
+S099,8,D1,Professional Upskilling,S,REVIEW
+S100,80,D4,AI Governance & Institutional Policy,2,SURVEY_CORRELATIONAL
+S101,81,D4,AI Governance & Institutional Policy,2,QUALITATIVE
+S102,82,D4,AI Governance & Institutional Policy,S,REVIEW
+S103,83,D4,AI Governance & Institutional Policy,2,DOCUMENT_ANALYSIS
+S104,84,D4,Academic & Administrative Operations,S,REVIEW
+S105,85,D1,Self-Directed Study,4,QUASI_EXPERIMENTAL
+S106,86,D1,Self-Directed Study,3,CORRELATIONAL_OUTCOME
+S107,87,D1,Self-Directed Study,3,CORRELATIONAL_OUTCOME
+S108,88,D2,Personalized Tutoring,4,RCT
+S109,89,D1,Self-Directed Study,2,MIXED
+S110,9,D4,Academic & Administrative Operations,1,SYSTEM_EVAL
+S111,90,D1,Self-Directed Study,2,SURVEY_CORRELATIONAL
+S112,91,D1,Self-Directed Study,2,SURVEY_DESCRIPTIVE
+S113,92,D1,Self-Directed Study,2,MIXED
+S114,93,D1,Self-Directed Study,2,MIXED
+S115,94,D1,Self-Directed Study,4,QUASI_EXPERIMENTAL
+S116,95,D1,Hobbyist Exploration,4,QUASI_EXPERIMENTAL
+S117,96,D1,Self-Directed Study,2,SURVEY_CORRELATIONAL
+S118,97,D1,Self-Directed Study,2,SURVEY_CORRELATIONAL
+S119,98,D2,Skill Reinforcement,2,MIXED
+S120,99,D2,Personalized Tutoring,2,MIXED
