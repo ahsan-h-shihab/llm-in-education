@@ -31,7 +31,7 @@ Each study was passed through the questions below in order; the first question a
 | 1 | Technical feasibility | that the technology works well enough in the tested setting |
 | 2 | Perception / descriptive practice | that people report using it, accepting it or how they practise with it |
 | 3 | Outcome without comparison | that outcomes were observed alongside use |
-| 4 | Comparative outcome | that use shifts an outcome compared with an alternative |
+| 4 | Comparative outcome | that outcomes differ between use and a comparison condition; whether the use caused the difference depends on the design |
 | S | Secondary synthesis | reported separately; never pooled into tiers 0–4 |
 
 Tiers 0–4 are ordinal. **They are an evidential ordering, not a quality ranking**: a careful interview study can be better scholarship than a
