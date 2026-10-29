@@ -1,5 +1,5 @@
 <h1 align="center">Evidence maturity in LLM-in-education research</h1>
-<p align="center"><em>Reproducibility materials for the review "Large Language Models in Education: Applications, Evidence Maturity, and Governance"</em></p>
+<p align="center"><em>Reproducibility materials for the review "Large Language Models and Related AI Systems in Education: Applications, Evidence Maturity, and Governance"</em></p>
 
 <p align="center">
   <img src="figures/evidence_maturity_by_domain.png" alt="Stacked bars of primary studies by evidence tier for each of the five domains, with columns for studies with a measured outcome, secondary syntheses and totals" width="880">
