@@ -3,7 +3,8 @@
 Standard library only. Run from the package root:   python scripts/reproduce_all.py
 
 Sections
-  1. Domain / subcategory layer re-derived from the corpus manifest categories.
+  1. Domain / subcategory layer re-derived from the corpus manifest categories plus the post-review reclassification list
+     (data/domain_reclassification.csv, 14 studies).
   2. Record-count chain, tier counts and the two summary tables, recomputed from data/ and compared with results/reported_results.json.
   3. The reported sampling design (the draw itself cannot be replayed: its inputs are not released).
   4. Aggregate agreement statistics, recomputed from the released aggregate agreement table (NOT from study-level codes, which are withheld).
@@ -73,6 +74,19 @@ def layer(rid, category, subcategory):
     return d, subcategory
 
 
+RECLASS = {r["record_id"]: r for r in read_csv("data/domain_reclassification.csv")}
+
+
+def final_layer(rid, category, subcategory):
+    """Manifest-derived layer, then the explicit post-review reclassification list."""
+    d, s = layer(rid, category, subcategory)
+    if rid in RECLASS:
+        x = RECLASS[rid]
+        assert (d, s) == (x["original_domain"], x["original_subcategory"]), rid
+        return x["revised_domain"], x["revised_subcategory"]
+    return d, s
+
+
 def tier_counts(rows):
     c = Counter(("S" if r["evidence_tier"] == "S" else "T" + r["evidence_tier"]) for r in rows)
     out = {k: c.get(k, 0) for k in TIERS}
@@ -88,11 +102,13 @@ def section_counts():
 
     bad_dom = bad_sub = 0
     for r in recs:
-        d, s_ = layer(r["record_id"], r["manifest_category"], r["manifest_subcategory"])
+        d, s_ = final_layer(r["record_id"], r["manifest_category"], r["manifest_subcategory"])
         bad_dom += d != r["review_domain"]
         bad_sub += s_ != r["review_subcategory"]
-    check("1. domain re-derived from manifest categories for all 150 records", bad_dom == 0, f"{bad_dom} mismatches")
-    check("1. subcategory re-derived from the manifest and the explicit Governance list for all 150 records", bad_sub == 0, f"{bad_sub} mismatches")
+    check("1. domain re-derived from manifest categories and the reclassification list for all 150 records", bad_dom == 0, f"{bad_dom} mismatches")
+    check("1. subcategory re-derived from the manifest, the explicit Governance list and the reclassification list for all 150 records", bad_sub == 0, f"{bad_sub} mismatches")
+    check("1. reclassification list: 14 synthesized records, each with its manifest-derived original label",
+          len(RECLASS) == 14 and all(any(r["record_id"] == k and r["status"] == "synthesized" for r in recs) for k in RECLASS))
     gov_ids = {r["record_id"] for r in recs if r["review_subcategory"] == GOVN}
     check("1. the Governance subcategory is exactly the nine records on the explicit list", gov_ids == GOVERNANCE_RECORDS, str(sorted(gov_ids)))
 
@@ -140,11 +156,11 @@ def section_counts():
         byd[r["review_domain"]].append(r)
         sub[(r["review_domain"], r["review_subcategory"])].append(r)
     D = {d: tier_counts(byd[d]) for d in DOMAIN_NAME}
-    check("2. D1 6 of 18; D2 10 of 20 primary studies with outcome evidence",
-          (D["D1"]["Outcome"], D["D1"]["N"] - D["D1"]["S"], D["D2"]["Outcome"], D["D2"]["N"] - D["D2"]["S"]) == (6, 18, 10, 20))
+    check("2. D1 2 of 9; D2 13 of 24 primary studies with outcome evidence",
+          (D["D1"]["Outcome"], D["D1"]["N"] - D["D1"]["S"], D["D2"]["Outcome"], D["D2"]["N"] - D["D2"]["S"]) == (2, 9, 13, 24))
     af = tier_counts(sub[("D3", "Assessment & Feedback")])
-    check("2. D3: 8 comparative studies, no T3; 6 of them in Assessment & Feedback", (D["D3"]["T4"], D["D3"]["T3"], af["T4"]) == (8, 0, 6))
-    check("2. D4: 0 of 17 (T2 11, T1 2, T0 4)", (D["D4"]["Outcome"], D["D4"]["N"] - D["D4"]["S"], D["D4"]["T2"], D["D4"]["T1"], D["D4"]["T0"]) == (0, 17, 11, 2, 4))
+    check("2. D3: 8 comparative studies, 1 T3; 6 of the comparative studies in Assessment & Feedback", (D["D3"]["T4"], D["D3"]["T3"], af["T4"]) == (8, 1, 6))
+    check("2. D4: 0 of 20 (T2 11, T1 5, T0 4)", (D["D4"]["Outcome"], D["D4"]["N"] - D["D4"]["S"], D["D4"]["T2"], D["D4"]["T1"], D["D4"]["T0"]) == (0, 20, 11, 5, 4))
     check("2. D5: 1 of 7 primary studies; 9 of 16 are secondary syntheses", (D["D5"]["Outcome"], D["D5"]["N"] - D["D5"]["S"], D["D5"]["S"], D["D5"]["N"]) == (1, 7, 9, 16))
     gaps = sorted(s for (d, s), rows in sub.items() if tier_counts(rows)["Outcome"] == 0)
     check("2. six subcategories without outcome evidence", gaps == sorted(R["subcategories_without_outcome_evidence"]), str(gaps))
@@ -166,20 +182,20 @@ def section_counts():
         syn = sum(1 for r in drec if r["status"] in ("synthesized", "synthesized_duplicate_record"))
         if (len(drec), syn) != (t1[name]["records"], t1[name]["synthesized"]):
             bad1.append((d, len(drec), syn))
-    check("2. corpus-structure table: records and records synthesized per domain (24/23, 29/29, 31/29, 44/24, 22/16)", not bad1, str(bad1))
+    check("2. corpus-structure table: records and records synthesized per domain (13/12, 35/35, 33/31, 47/27, 22/16)", not bad1, str(bad1))
     for d in ("D1", "D2", "D3", "D5"):
         c = Counter(r["review_subcategory"] for r in recs if r["review_domain"] == d)
         check(f"2. corpus-structure table: records per subcategory, {d}", dict(c) == t1[DOMAIN_NAME[d]]["records_by_subcategory"], str(dict(c)))
     d4 = [r for r in recs if r["review_domain"] == "D4"]
     c4 = Counter(r["review_subcategory"] for r in d4)
     rep = t1[DOMAIN_NAME["D4"]]["records_by_subcategory"]
-    check("2. Domain 4, all 44 records: Operations / Governance equals the reported 35 / 9", (c4[OPS], c4[GOVN]) == (rep[OPS], rep[GOVN]) == (35, 9), str(dict(c4)))
+    check("2. Domain 4, all 47 records: Operations / Governance equals the reported 38 / 9", (c4[OPS], c4[GOVN]) == (rep[OPS], rep[GOVN]) == (38, 9), str(dict(c4)))
     sy = Counter(r["review_subcategory"] for r in d4 if r["status"] in ("synthesized", "excluded_topic_eligibility", "excluded_corpus_integrity"))
-    check("2. Domain 4 records synthesized before the topic-eligibility and integrity exclusions (28 records): 19 Operations / 9 Governance", (sy[OPS], sy[GOVN]) == (19, 9), str(dict(sy)))
+    check("2. Domain 4 records synthesized before the topic-eligibility and integrity exclusions (31 records): 22 Operations / 9 Governance", (sy[OPS], sy[GOVN]) == (22, 9), str(dict(sy)))
     sa = [r for r in d4 if r["status"] == "set_aside_at_corpus_construction"]
     check("2. Domain 4 records set aside at corpus construction (16 records) are Operations by the default rule", len(sa) == 16 and all(r["review_subcategory"] == OPS for r in sa))
     uq = Counter(r["review_subcategory"] for r in cls if r["review_domain"] == "D4")
-    check("2. Domain 4 unique final studies (24 studies, not records): 17 Operations / 7 Governance", (uq[OPS], uq[GOVN]) == (17, 7), str(dict(uq)))
+    check("2. Domain 4 unique final studies (27 studies, not records): 20 Operations / 7 Governance", (uq[OPS], uq[GOVN]) == (20, 7), str(dict(uq)))
 
 
 # ------------------------------------------------------------------------------------------------ 3

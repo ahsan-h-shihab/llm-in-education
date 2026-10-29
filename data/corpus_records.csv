@@ -34,7 +34,7 @@ record_id,manifest_category,manifest_subcategory,review_domain,review_subcategor
 127,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,synthesized,S030,,,
 128,03 Educational Leadership & Management,Assessment & Feedback,D3,Assessment & Feedback,set_aside_at_corpus_construction,,,set aside at corpus construction: source unreadable,verifiable file property
 129,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,synthesized,S031,,,
-13,02 Learner Support in Formal Education,Personalized Tutoring,D2,Personalized Tutoring,synthesized,S032,,,
+13,02 Learner Support in Formal Education,Personalized Tutoring,D3,Teaching Practice & Rehearsal,synthesized,S032,,,
 130,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,synthesized,S033,,,
 131,01 Lifelong & Informal Learning,Professional Upskilling,D1,Professional Upskilling,excluded_topic_eligibility,,,topic eligibility: no AI-enabled system,decision recorded at classification (topic-eligibility question)
 132,01 Lifelong & Informal Learning,Professional Upskilling,D1,Professional Upskilling,synthesized,S034,,,
@@ -72,14 +72,14 @@ record_id,manifest_category,manifest_subcategory,review_domain,review_subcategor
 27,02 Learner Support in Formal Education,Personalized Tutoring,D2,Personalized Tutoring,synthesized,S057,,,
 28,03 Educational Leadership & Management,Workflow Automation,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: general-purpose AI/systems paper outside the educational-relevance criterion,post-hoc reconstruction; not a contemporaneous screening record
 29,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: general-purpose AI/systems paper outside the educational-relevance criterion,post-hoc reconstruction; not a contemporaneous screening record
-3,01 Lifelong & Informal Learning,Professional Upskilling,D1,Professional Upskilling,synthesized,S058,,,
+3,01 Lifelong & Informal Learning,Professional Upskilling,D2,Curriculum Tools,synthesized,S058,,,
 30,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: general-purpose AI/systems paper outside the educational-relevance criterion,post-hoc reconstruction; not a contemporaneous screening record
 31,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,excluded_topic_eligibility,,,topic eligibility: AI outside education,decision recorded at classification (topic-eligibility question)
 32,03 Educational Leadership & Management,Workflow Automation,D4,Academic & Administrative Operations,synthesized,S059,,,
 33,03 Educational Leadership & Management,Workflow Automation,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: general-purpose AI/systems paper outside the educational-relevance criterion,post-hoc reconstruction; not a contemporaneous screening record
 34,03 Educational Leadership & Management,Workflow Automation,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: general-purpose AI/systems paper outside the educational-relevance criterion,post-hoc reconstruction; not a contemporaneous screening record
-35,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S060,,,
-36,02 Learner Support in Formal Education,Personalized Tutoring,D2,Personalized Tutoring,synthesized,S061,,,
+35,01 Lifelong & Informal Learning,Self-Directed Study,D4,Academic & Administrative Operations,synthesized,S060,,,
+36,02 Learner Support in Formal Education,Personalized Tutoring,D4,Academic & Administrative Operations,synthesized,S061,,,
 37,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: source unreadable,verifiable file property
 38,04 Accessibility & Special Education,Barrier Reduction,D5,Barrier Reduction,synthesized,S062,,,
 39,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,synthesized,S063,,,
@@ -89,7 +89,7 @@ record_id,manifest_category,manifest_subcategory,review_domain,review_subcategor
 42,04 Accessibility & Special Education,Barrier Reduction,D5,Barrier Reduction,synthesized,S065,,,
 43,03 Educational Leadership & Management,Workflow Automation,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: general-purpose AI/systems paper outside the educational-relevance criterion,post-hoc reconstruction; not a contemporaneous screening record
 44,02 Learner Support in Formal Education,Curriculum Tools,D2,Curriculum Tools,synthesized,S066,,,
-45,03 Educational Leadership & Management,Workflow Automation,D3,Teaching Practice & Rehearsal,synthesized,S067,,,
+45,03 Educational Leadership & Management,Workflow Automation,D2,Personalized Tutoring,synthesized,S067,,,
 46,03 Educational Leadership & Management,Workflow Automation,D4,Academic & Administrative Operations,set_aside_at_corpus_construction,,,set aside at corpus construction: general-purpose AI/systems paper outside the educational-relevance criterion,post-hoc reconstruction; not a contemporaneous screening record
 47,04 Accessibility & Special Education,Assistive Interfaces,D5,Assistive Interfaces,excluded_topic_eligibility,,,topic eligibility: AI outside education,decision recorded at classification (topic-eligibility question)
 48,03 Educational Leadership & Management,Workflow Automation,D4,Academic & Administrative Operations,synthesized,S068,,,
@@ -122,30 +122,30 @@ record_id,manifest_category,manifest_subcategory,review_domain,review_subcategor
 72,03 Educational Leadership & Management,Assessment & Feedback,D3,Assessment & Feedback,synthesized,S091,,,
 73,02 Learner Support in Formal Education,Personalized Tutoring,D2,Personalized Tutoring,synthesized,S092,,,
 74,02 Learner Support in Formal Education,Curriculum Tools,D2,Curriculum Tools,synthesized,S093,,,
-75,01 Lifelong & Informal Learning,Professional Upskilling,D1,Professional Upskilling,synthesized,S094,,,
+75,01 Lifelong & Informal Learning,Professional Upskilling,D4,Academic & Administrative Operations,synthesized,S094,,,
 76,02 Learner Support in Formal Education,Personalized Tutoring,D2,Personalized Tutoring,synthesized,S095,,,
 77,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,synthesized,S096,,,
 78,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,synthesized,S097,,,
 79,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,synthesized,S098,,,
-8,01 Lifelong & Informal Learning,Professional Upskilling,D1,Professional Upskilling,synthesized,S099,,,
+8,01 Lifelong & Informal Learning,Professional Upskilling,D2,Personalized Tutoring,synthesized,S099,,,
 80,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,synthesized,S100,,,
 81,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,synthesized,S101,,,
 82,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,synthesized,S102,,,
 83,03 Educational Leadership & Management,Administrative Decision Support,D4,AI Governance & Institutional Policy,synthesized,S103,,,
 84,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,synthesized,S104,,,
-85,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S105,,,
-86,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S106,,,
-87,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S107,,,
+85,01 Lifelong & Informal Learning,Self-Directed Study,D2,Personalized Tutoring,synthesized,S105,,,
+86,01 Lifelong & Informal Learning,Self-Directed Study,D2,Skill Reinforcement,synthesized,S106,,,
+87,01 Lifelong & Informal Learning,Self-Directed Study,D3,Content Creation,synthesized,S107,,,
 88,02 Learner Support in Formal Education,Personalized Tutoring,D2,Personalized Tutoring,synthesized,S108,,,
 89,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S109,,,
 9,03 Educational Leadership & Management,Administrative Decision Support,D4,Academic & Administrative Operations,synthesized,S110,,,
 90,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S111,,,
-91,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S112,,,
+91,01 Lifelong & Informal Learning,Self-Directed Study,D3,Content Creation,synthesized,S112,,,
 92,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S113,,,
-93,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S114,,,
-94,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S115,,,
+93,01 Lifelong & Informal Learning,Self-Directed Study,D2,Skill Reinforcement,synthesized,S114,,,
+94,01 Lifelong & Informal Learning,Self-Directed Study,D2,Personalized Tutoring,synthesized,S115,,,
 95,01 Lifelong & Informal Learning,Hobbyist Exploration,D1,Hobbyist Exploration,synthesized,S116,,,
-96,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S117,,,
+96,01 Lifelong & Informal Learning,Self-Directed Study,D2,Skill Reinforcement,synthesized,S117,,,
 97,01 Lifelong & Informal Learning,Self-Directed Study,D1,Self-Directed Study,synthesized,S118,,,
 98,02 Learner Support in Formal Education,Skill Reinforcement,D2,Skill Reinforcement,synthesized,S119,,,
 99,02 Learner Support in Formal Education,Personalized Tutoring,D2,Personalized Tutoring,synthesized,S120,,,

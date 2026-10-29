@@ -1,0 +1,15 @@
+record_id,study_id,original_domain,original_subcategory,revised_domain,revised_subcategory,basis
+3,S058,D1,Professional Upskilling,D2,Curriculum Tools,LLMs integrated into entrepreneurship courses (D1/D2 rule)
+8,S099,D1,Professional Upskilling,D2,Personalized Tutoring,Medical students in formal programmes (D1/D2 rule)
+13,S032,D2,Personalized Tutoring,D3,Teaching Practice & Rehearsal,AI performs supervision support (D3 definition)
+35,S060,D1,Self-Directed Study,D4,Academic & Administrative Operations,Retrieval and knowledge infrastructure (D4 Operations definition)
+36,S061,D2,Personalized Tutoring,D4,Academic & Administrative Operations,Advising service (D4 Operations definition)
+45,S067,D3,Teaching Practice & Rehearsal,D2,Personalized Tutoring,Learner-focused tutoring architecture (D2/D3 rule)
+75,S094,D1,Professional Upskilling,D4,Academic & Administrative Operations,LLM performs institutional planning work (D4 Operations definition)
+85,S105,D1,Self-Directed Study,D2,Personalized Tutoring,School science classes (D1/D2 rule)
+86,S106,D1,Self-Directed Study,D2,Skill Reinforcement,"Course-assigned, graded use (D1/D2 rule)"
+87,S107,D1,Self-Directed Study,D3,Content Creation,Measured product is pre-service teachers' lesson plans (D3 definition; Appendix B source check)
+91,S112,D1,Self-Directed Study,D3,Content Creation,Teacher-facing activity classification (D3 definition)
+93,S114,D1,Self-Directed Study,D2,Skill Reinforcement,Activity inside a university course (D1/D2 rule)
+94,S115,D1,Self-Directed Study,D2,Personalized Tutoring,"Course unit, intact classes (D1/D2 rule)"
+96,S117,D1,Self-Directed Study,D2,Skill Reinforcement,Strategy use measured in compulsory English courses (D1/D2 rule)

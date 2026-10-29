@@ -71,6 +71,9 @@ Formal Education, **D3** Instructional Support, **D4** Institutional Intelligenc
 and the manifest's instructional-support records, plus two educator-facing records from its workflow-automation subcategory) and D4 (the
 rest). The D4 split between *Academic & Administrative Operations* and *AI Governance & Institutional Policy* follows an explicit list of nine
 record numbers, given in `scripts/reproduce_all.py`. Domain 4 records not on that list, including those set aside at corpus construction, are Operations by default (see the README).
+After peer review, 14 studies were reclassified by applying the written domain definitions to the source texts, following a second-coder
+check of a stratified sample and a source check of the outcome studies; `data/domain_reclassification.csv` lists them, and
+`scripts/reproduce_all.py` applies that list after the mapping above.
 
 ## What was recorded but is not released
 

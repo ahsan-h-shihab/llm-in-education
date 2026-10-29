@@ -41,37 +41,37 @@
  "table1_corpus_structure": {
   "domains": {
    "Lifelong & Informal Learning": {
-    "records": 24,
-    "synthesized": 23,
+    "records": 13,
+    "synthesized": 12,
     "records_by_subcategory": {
-     "Self-Directed Study": 14,
+     "Self-Directed Study": 6,
      "Hobbyist Exploration": 1,
-     "Professional Upskilling": 9
+     "Professional Upskilling": 6
     }
    },
    "Learner Support in Formal Education": {
-    "records": 29,
-    "synthesized": 29,
+    "records": 35,
+    "synthesized": 35,
     "records_by_subcategory": {
-     "Personalized Tutoring": 13,
-     "Skill Reinforcement": 8,
-     "Curriculum Tools": 8
+     "Personalized Tutoring": 15,
+     "Skill Reinforcement": 11,
+     "Curriculum Tools": 9
     }
    },
    "Instructional Support": {
-    "records": 31,
-    "synthesized": 29,
+    "records": 33,
+    "synthesized": 31,
     "records_by_subcategory": {
      "Teaching Practice & Rehearsal": 5,
-     "Content Creation": 10,
+     "Content Creation": 12,
      "Assessment & Feedback": 16
     }
    },
    "Institutional Intelligence & Operations": {
-    "records": 44,
-    "synthesized": 24,
+    "records": 47,
+    "synthesized": 27,
     "records_by_subcategory": {
-     "Academic & Administrative Operations": 35,
+     "Academic & Administrative Operations": 38,
      "AI Governance & Institutional Policy": 9
     }
    },
@@ -90,13 +90,13 @@
   "Lifelong & Informal Learning": {
    "Self-Directed Study": {
     "T0": 0,
-    "T1": 1,
-    "T2": 7,
-    "T3": 2,
-    "T4": 3,
+    "T1": 0,
+    "T2": 4,
+    "T3": 0,
+    "T4": 1,
     "S": 1,
-    "N": 14,
-    "Outcome": 5
+    "N": 6,
+    "Outcome": 1
    },
    "Hobbyist Exploration": {
     "T0": 0,
@@ -110,45 +110,45 @@
    },
    "Professional Upskilling": {
     "T0": 1,
-    "T1": 2,
+    "T1": 1,
     "T2": 1,
     "T3": 0,
     "T4": 0,
-    "S": 4,
-    "N": 8,
+    "S": 2,
+    "N": 5,
     "Outcome": 0
    },
    "TOTAL": {
     "T0": 1,
-    "T1": 3,
-    "T2": 8,
-    "T3": 2,
-    "T4": 4,
-    "S": 5,
-    "N": 23,
-    "Outcome": 6
+    "T1": 1,
+    "T2": 5,
+    "T3": 0,
+    "T4": 2,
+    "S": 3,
+    "N": 12,
+    "Outcome": 2
    }
   },
   "Learner Support in Formal Education": {
    "Personalized Tutoring": {
-    "T0": 0,
-    "T1": 4,
+    "T0": 1,
+    "T1": 2,
     "T2": 2,
     "T3": 1,
-    "T4": 2,
-    "S": 4,
-    "N": 13,
-    "Outcome": 3
+    "T4": 4,
+    "S": 5,
+    "N": 15,
+    "Outcome": 5
    },
    "Skill Reinforcement": {
     "T0": 0,
     "T1": 0,
-    "T2": 2,
-    "T3": 1,
+    "T2": 4,
+    "T3": 2,
     "T4": 4,
     "S": 1,
-    "N": 8,
-    "Outcome": 5
+    "N": 11,
+    "Outcome": 6
    },
    "Curriculum Tools": {
     "T0": 1,
@@ -156,25 +156,25 @@
     "T2": 0,
     "T3": 1,
     "T4": 1,
-    "S": 4,
-    "N": 8,
+    "S": 5,
+    "N": 9,
     "Outcome": 2
    },
    "TOTAL": {
-    "T0": 1,
-    "T1": 5,
-    "T2": 4,
-    "T3": 3,
-    "T4": 7,
-    "S": 9,
-    "N": 29,
-    "Outcome": 10
+    "T0": 2,
+    "T1": 3,
+    "T2": 6,
+    "T3": 4,
+    "T4": 9,
+    "S": 11,
+    "N": 35,
+    "Outcome": 13
    }
   },
   "Instructional Support": {
    "Teaching Practice & Rehearsal": {
-    "T0": 1,
-    "T1": 1,
+    "T0": 0,
+    "T1": 2,
     "T2": 2,
     "T3": 0,
     "T4": 0,
@@ -185,12 +185,12 @@
    "Content Creation": {
     "T0": 0,
     "T1": 2,
-    "T2": 4,
-    "T3": 0,
+    "T2": 5,
+    "T3": 1,
     "T4": 2,
     "S": 1,
-    "N": 9,
-    "Outcome": 2
+    "N": 11,
+    "Outcome": 3
    },
    "Assessment & Feedback": {
     "T0": 0,
@@ -203,25 +203,25 @@
     "Outcome": 6
    },
    "TOTAL": {
-    "T0": 1,
-    "T1": 7,
-    "T2": 8,
-    "T3": 0,
+    "T0": 0,
+    "T1": 8,
+    "T2": 9,
+    "T3": 1,
     "T4": 8,
     "S": 4,
-    "N": 28,
-    "Outcome": 8
+    "N": 30,
+    "Outcome": 9
    }
   },
   "Institutional Intelligence & Operations": {
    "Academic & Administrative Operations": {
     "T0": 4,
-    "T1": 2,
+    "T1": 5,
     "T2": 6,
     "T3": 0,
     "T4": 0,
     "S": 5,
-    "N": 17,
+    "N": 20,
     "Outcome": 0
    },
    "AI Governance & Institutional Policy": {
@@ -236,12 +236,12 @@
    },
    "TOTAL": {
     "T0": 4,
-    "T1": 2,
+    "T1": 5,
     "T2": 11,
     "T3": 0,
     "T4": 0,
     "S": 7,
-    "N": 24,
+    "N": 27,
     "Outcome": 0
    }
   },

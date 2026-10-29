@@ -10,7 +10,7 @@ All files are UTF-8 CSV with a header row, unless noted.
 |---|---|
 | `record_id` | Record number from the corpus numbering (text: some are `1.1-145` or `1.2`); unique |
 | `manifest_category`, `manifest_subcategory` | The four-category scheme of the original corpus manifest |
-| `review_domain` | D1–D5, derived from the manifest category (`CODEBOOK.md`) |
+| `review_domain` | D1–D5, derived from the manifest category (`CODEBOOK.md`), then revised for the 14 studies in `domain_reclassification.csv` |
 | `review_subcategory` | Subcategory within the review domain. For Domain 4, the nine records on the taxonomy's explicit Governance list are Governance and every other record is Operations by default, including the 16 set aside at corpus construction |
 | `status` | `synthesized` (120) · `synthesized_duplicate_record` (1, a second record of an article already counted) · `excluded_topic_eligibility` (9) · `excluded_corpus_integrity` (2) · `set_aside_at_corpus_construction` (18) |
 | `study_id` | Public study identifier `S001`–`S120` (assigned in corpus order; shared by the two records of the duplicated article); empty for records without a classification |

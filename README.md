@@ -23,17 +23,17 @@ The method is summarized in [`CODEBOOK.md`](CODEBOOK.md); the rubric is [`RUBRIC
 
 1. **Few studies measure an outcome.** Of the 86 primary studies, 25 (29.1%) measure a learning or practice outcome objectively, and 20 (23.3%) compare it with an alternative condition.
 2. **Descriptive and feasibility evidence dominates.** Perception or descriptive practice is the most common tier (34 studies, 39.5%), followed by technical feasibility (20, 23.3%); 7 studies (8.1%) report no empirical evidence.
-3. **Evidence is uneven across domains.** Primary studies with a measured outcome: learner support in formal education 10 of 20, instructional support 8 of 24, lifelong and informal learning 6 of 18, accessibility 1 of 7, institutional operations and governance **0 of 17**.
+3. **Evidence is uneven across domains.** Primary studies with a measured outcome: learner support in formal education 13 of 24, instructional support 9 of 26, lifelong and informal learning 2 of 9, accessibility 1 of 7, institutional operations and governance **0 of 20**.
 4. **Six subcategories contain no measured outcome:** Professional Upskilling, Teaching Practice & Rehearsal, Academic & Administrative Operations, AI Governance & Institutional Policy, Assistive Interfaces and Barrier Reduction.
 
 ## Results at a glance
 
 | Domain | Studies | Primary | T0 | T1 | T2 | T3 | T4 | S | Measured outcome (T3+T4) |
 |---|--:|--:|--:|--:|--:|--:|--:|--:|--:|
-| D1 Lifelong & Informal Learning | 23 | 18 | 1 | 3 | 8 | 2 | 4 | 5 | 6 |
-| D2 Learner Support in Formal Education | 29 | 20 | 1 | 5 | 4 | 3 | 7 | 9 | 10 |
-| D3 Instructional Support | 28 | 24 | 1 | 7 | 8 | 0 | 8 | 4 | 8 |
-| D4 Institutional Intelligence & Operations | 24 | 17 | 4 | 2 | 11 | 0 | 0 | 7 | 0 |
+| D1 Lifelong & Informal Learning | 12 | 9 | 1 | 1 | 5 | 0 | 2 | 3 | 2 |
+| D2 Learner Support in Formal Education | 35 | 24 | 2 | 3 | 6 | 4 | 9 | 11 | 13 |
+| D3 Instructional Support | 30 | 26 | 0 | 8 | 9 | 1 | 8 | 4 | 9 |
+| D4 Institutional Intelligence & Operations | 27 | 20 | 4 | 5 | 11 | 0 | 0 | 7 | 0 |
 | D5 Accessibility & Special Education | 16 | 7 | 0 | 3 | 3 | 0 | 1 | 9 | 1 |
 | **All domains** | **120** | **86** | **7** | **20** | **34** | **5** | **20** | **34** | **25** |
 
@@ -98,12 +98,13 @@ Each check prints `PASS`, `FAIL` or `NOT TESTABLE`; the scripts do not write int
 
 ## Known limitations
 
-* **Domain 4 subcategories.** The 44 Domain 4 records split 35 *Academic & Administrative Operations* / 9 *AI Governance & Institutional Policy* (the taxonomy's
-  explicit nine-record Governance list; every other Domain 4 record, including the 16 set aside at corpus construction, is Operations by default). Of the 28 records
-  synthesized before the topic-eligibility and integrity exclusions, 19 are Operations and 9 Governance; the 24 unique final studies split 17 and 7. These are different
+* **Domain 4 subcategories.** The 47 Domain 4 records split 38 *Academic & Administrative Operations* / 9 *AI Governance & Institutional Policy* (the taxonomy's
+  explicit nine-record Governance list; every other Domain 4 record, including the 16 set aside at corpus construction, is Operations by default). Of the 31 records
+  synthesized before the topic-eligibility and integrity exclusions, 22 are Operations and 9 Governance; the 27 unique final studies split 20 and 7. These are different
   counting units and are checked separately. One record (a review of telecommunications and AI infrastructure for education) was placed in Operations because its main
   subject is the infrastructure and applications that enable AI-supported education, with ethics and governance as one section of it. That is a classification judgement:
-  placing it in Governance instead would change the record split to 34 / 10 and the final-study split to 16 / 8.
+  placing it in Governance instead would change the record split to 37 / 10 and the final-study split to 19 / 8.
+* **Domain reclassification.** After peer review, a co-author coded the domain of a stratified random sample of 30 primary studies without the original labels. Disagreements were resolved against the written domain definitions and the source texts, and 13 studies were reclassified; a later check of the outcome studies against their sources moved one more. `data/domain_reclassification.csv` lists all 14 with their original and revised labels. The agreement statistics of that check refer to the original labels and are reported in the paper.
 * **Search not recorded.** The corpus is not a systematic sample and its assembly cannot be reproduced.
 * **One classifier for most studies.** Outside the 29 validated studies, classifications come from the AI classification plus the checks above, not from a second coder.
   The AI classification ran in fresh sessions instructed to use only the coding bundle; isolation was instructed and checked afterwards, not enforced technically.
@@ -119,6 +120,7 @@ Each check prints `PASS`, `FAIL` or `NOT TESTABLE`; the scripts do not write int
 | `CODEBOOK.md` | Classification method: decision sequence, tiers, design labels, interpretive rules, domains |
 | `DATA_DICTIONARY.md` | Every column of every data file, and how the files were produced |
 | `DATA_AVAILABILITY.md` | What is and is not released, and why; the statement for the paper |
+| `data/domain_reclassification.csv` | The 14 studies reclassified after peer review: original and revised domain and subcategory, and the rule applied |
 | `data/corpus_records.csv` | The 150 records: manifest category, review domain, status, exclusion category and its basis |
 | `data/study_classifications.csv` | Final classification (domain, subcategory, tier, design label) of the 120 studies |
 | `data/study_metadata.csv` | Title, year, venue and DOI of each of the 120 studies |

@@ -30,7 +30,7 @@ S028,125,D3,Assessment & Feedback,2,SURVEY_CORRELATIONAL
 S029,126,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
 S030,127,D4,Academic & Administrative Operations,0,CONCEPTUAL
 S031,129,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
-S032,13,D2,Personalized Tutoring,1,SYSTEM_EVAL
+S032,13,D3,Teaching Practice & Rehearsal,1,SYSTEM_EVAL
 S033,130,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
 S034,132,D1,Professional Upskilling,2,SURVEY_CORRELATIONAL
 S035,133,D4,Academic & Administrative Operations,2,SURVEY_CORRELATIONAL
@@ -56,16 +56,16 @@ S054,24,D1,Professional Upskilling,0,CONCEPTUAL
 S055,25,D3,Teaching Practice & Rehearsal,1,SYSTEM_EVAL
 S056,26,D4,Academic & Administrative Operations,S,REVIEW
 S057,27,D2,Personalized Tutoring,S,REVIEW
-S058,3,D1,Professional Upskilling,S,REVIEW
+S058,3,D2,Curriculum Tools,S,REVIEW
 S059,32,D4,Academic & Administrative Operations,2,QUALITATIVE
-S060,35,D1,Self-Directed Study,1,SYSTEM_EVAL
-S061,36,D2,Personalized Tutoring,1,SYSTEM_EVAL
+S060,35,D4,Academic & Administrative Operations,1,SYSTEM_EVAL
+S061,36,D4,Academic & Administrative Operations,1,SYSTEM_EVAL
 S062,38,D5,Barrier Reduction,2,QUALITATIVE
 S063,39,D4,AI Governance & Institutional Policy,S,REVIEW
 S064,40,D5,Barrier Reduction,2,SURVEY_CORRELATIONAL
 S065,42,D5,Barrier Reduction,S,REVIEW
 S066,44,D2,Curriculum Tools,S,REVIEW
-S067,45,D3,Teaching Practice & Rehearsal,0,SYSTEM_PROPOSAL
+S067,45,D2,Personalized Tutoring,0,SYSTEM_PROPOSAL
 S068,48,D4,Academic & Administrative Operations,1,SYSTEM_EVAL
 S069,49,D4,Academic & Administrative Operations,S,REVIEW
 S070,51,D2,Personalized Tutoring,1,SYSTEM_EVAL
@@ -92,30 +92,30 @@ S090,71,D3,Assessment & Feedback,S,REVIEW
 S091,72,D3,Assessment & Feedback,4,QUASI_EXPERIMENTAL
 S092,73,D2,Personalized Tutoring,S,REVIEW
 S093,74,D2,Curriculum Tools,0,CONCEPTUAL
-S094,75,D1,Professional Upskilling,1,SYSTEM_EVAL
+S094,75,D4,Academic & Administrative Operations,1,SYSTEM_EVAL
 S095,76,D2,Personalized Tutoring,1,SYSTEM_EVAL
 S096,77,D4,AI Governance & Institutional Policy,2,DOCUMENT_ANALYSIS
 S097,78,D4,AI Governance & Institutional Policy,2,QUALITATIVE
 S098,79,D4,Academic & Administrative Operations,0,CONCEPTUAL
-S099,8,D1,Professional Upskilling,S,REVIEW
+S099,8,D2,Personalized Tutoring,S,REVIEW
 S100,80,D4,AI Governance & Institutional Policy,2,SURVEY_CORRELATIONAL
 S101,81,D4,AI Governance & Institutional Policy,2,QUALITATIVE
 S102,82,D4,AI Governance & Institutional Policy,S,REVIEW
 S103,83,D4,AI Governance & Institutional Policy,2,DOCUMENT_ANALYSIS
 S104,84,D4,Academic & Administrative Operations,S,REVIEW
-S105,85,D1,Self-Directed Study,4,QUASI_EXPERIMENTAL
-S106,86,D1,Self-Directed Study,3,CORRELATIONAL_OUTCOME
-S107,87,D1,Self-Directed Study,3,CORRELATIONAL_OUTCOME
+S105,85,D2,Personalized Tutoring,4,QUASI_EXPERIMENTAL
+S106,86,D2,Skill Reinforcement,3,CORRELATIONAL_OUTCOME
+S107,87,D3,Content Creation,3,CORRELATIONAL_OUTCOME
 S108,88,D2,Personalized Tutoring,4,RCT
 S109,89,D1,Self-Directed Study,2,MIXED
 S110,9,D4,Academic & Administrative Operations,1,SYSTEM_EVAL
 S111,90,D1,Self-Directed Study,2,SURVEY_CORRELATIONAL
-S112,91,D1,Self-Directed Study,2,SURVEY_DESCRIPTIVE
+S112,91,D3,Content Creation,2,SURVEY_DESCRIPTIVE
 S113,92,D1,Self-Directed Study,2,MIXED
-S114,93,D1,Self-Directed Study,2,MIXED
-S115,94,D1,Self-Directed Study,4,QUASI_EXPERIMENTAL
+S114,93,D2,Skill Reinforcement,2,MIXED
+S115,94,D2,Personalized Tutoring,4,QUASI_EXPERIMENTAL
 S116,95,D1,Hobbyist Exploration,4,QUASI_EXPERIMENTAL
-S117,96,D1,Self-Directed Study,2,SURVEY_CORRELATIONAL
+S117,96,D2,Skill Reinforcement,2,SURVEY_CORRELATIONAL
 S118,97,D1,Self-Directed Study,2,SURVEY_CORRELATIONAL
 S119,98,D2,Skill Reinforcement,2,MIXED
 S120,99,D2,Personalized Tutoring,2,MIXED
