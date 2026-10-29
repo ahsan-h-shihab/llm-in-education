@@ -1,4 +1,4 @@
-<h1 align="center">Evidence maturity in LLM-in-education research</h1>
+<h1 align="center">Evidence maturity in LLM-in-Education research</h1>
 <p align="center"><em>Reproducibility materials for the review "Large Language Models and Related AI Systems in Education: Applications, Evidence Maturity, and Governance"</em></p>
 
 <p align="center">
