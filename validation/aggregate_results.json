@@ -1,5 +1,5 @@
 {
- "_note": "Aggregate statistics only. Study-level codes of the two coders are not released. Reported as supplied; see README for how each value can be checked.",
+ "_note": "Aggregate statistics for the operative validation correction entered on 18 November 2026. Historical lodged agreement is recorded separately. Study-level codes, sample identity and order are private.",
  "sampling": {
   "stratified_random_sample_size": 30,
   "per_domain": 6,
@@ -15,13 +15,13 @@
  },
  "primary": {
   "n_studies": 22,
-  "linear_weighted_kappa": 1.0,
-  "krippendorff_alpha_ordinal": 1.0,
-  "raw_exact_agreement": 1.0,
+  "linear_weighted_kappa": 0.9646302250803859,
+  "krippendorff_alpha_ordinal": 0.9818398218536436,
+  "raw_exact_agreement": 0.9545454545454546,
   "bootstrap_seed": 20261004,
   "bootstrap_resamples": 10000,
   "bootstrap_95ci": [
-   1.0,
+   0.8705882352941177,
    1.0
   ],
   "bootstrap_undefined_resamples": 0,
@@ -43,8 +43,8 @@
    "2": {
     "0": 0,
     "1": 0,
-    "2": 9,
-    "3": 0,
+    "2": 8,
+    "3": 1,
     "4": 0
    },
    "3": {
@@ -62,13 +62,19 @@
     "4": 5
    }
   },
-  "note": "agreement between the initial classification and independent human coding; not human-human inter-rater reliability"
+  "note": "Rows are initial AI-assisted ratings and columns are human coder ratings. The public aggregate confusion matrix supports independent recalculation of the point estimates (exact agreement, linear-weighted kappa and ordinal alpha). Exact reproduction of the original seeded bootstrap interval requires the original sample order, which is not publicly available.",
+  "exact_matches": 21,
+  "disagreements": 1,
+  "raw_exact_clopper_pearson_95ci": [
+   0.771555602332364,
+   0.9988498524734183
+  ]
  },
  "secondary_derived_outcome_table": {
   "n_studies": 22,
   "both_T3_T4": 7,
-  "both_T0_T2": 15,
-  "disagree": 0
+  "both_T0_T2": 14,
+  "disagree": 1
  },
  "secondary_synthesis": {
   "n_studies": 30,
@@ -89,5 +95,16 @@
   "outcome_construct": 0.9,
   "outcome_measure": 0.8,
   "setting": 0.6667
+ },
+ "amendment": {
+  "date": "2026-11-18",
+  "basis": "The human coder personally confirmed that Tier 3 was the intended rating and that the lodged Tier 2 entry was erroneous.",
+  "rationale_note": "The lodged written justification describes Tier 2. No revised substantive rationale for Tier 3 was supplied with the confirmation.",
+  "historical_lodged_exact_matches": 22,
+  "affected_pairs": 1,
+  "amendment_changed_synthesis_classification": false,
+  "human_coder_received_aggregate_distribution_before_coding": true,
+  "study_level_access": "The project record reports no access to study-level ratings.",
+  "unchanged_ancillary_field_differences": 43
  }
 }

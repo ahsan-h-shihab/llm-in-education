@@ -14,7 +14,7 @@ Tiers order the <em>kind</em> of evidence, not its quality. Regenerated from <co
 A corpus of 150 records on LLM and AI applications in education was classified by the kind of evidence each study offers: from no empirical evidence
 (Tier 0) through technical feasibility, perception or descriptive practice, and outcomes without comparison, to outcomes compared with an alternative
 (Tier 4); literature syntheses are reported separately (S). 120 unique studies were synthesized in depth: **86 primary studies and 34 secondary
-syntheses**, grouped into five domains. This repository releases the final classification and the code that recomputes every count the paper reports.
+syntheses**, grouped into five domains. The files in this repository reproduce the original 120-study release and the corrected aggregate validation results.
 The method is summarized in [`CODEBOOK.md`](CODEBOOK.md); the rubric is [`RUBRIC_V3_1.md`](RUBRIC_V3_1.md).
 
 ## Key findings
@@ -46,7 +46,7 @@ Python 3 with the standard library only (tested with 3.12.1); a LaTeX distributi
 Run from the repository root; all paths are relative.
 
 ```bash
-python scripts/reproduce_all.py          # counts, tables, aggregate statistics -> expect: 42 passed, 0 failed, 3 not testable
+python scripts/reproduce_all.py          # counts, tables, aggregate statistics -> expect: 43 passed, 0 failed, 4 not testable
 python scripts/make_figure.py --compile  # regenerate the figure source (byte-identical check) and compile it
 python scripts/check_package.py          # checksums and file hygiene -> expect: 6 passed, 0 failed
 ```
@@ -58,7 +58,8 @@ Each check prints `PASS`, `FAIL` or `NOT TESTABLE`; the scripts do not write int
 | Record-count reductions, tier counts, the two summary tables, percentages | **Exact**: recomputed from `data/` and compared with the values reported in the paper |
 | Tier follows from design label | **Exact**: all 120 studies (see `CODEBOOK.md`) |
 | Domain and subcategory assignment | **Exact** for all 150 records, given the taxonomy rules in `CODEBOOK.md` |
-| κ, α, raw agreement, bootstrap interval | **Aggregate only**: recomputed from the aggregate agreement table, which is diagonal (all 22 pairs agree), so these values cannot show sensitivity to any disagreement |
+| κ, ordinal α and raw agreement | Independently recalculable from the public aggregate confusion matrix |
+| Exact seeded percentile bootstrap interval | Requires the original sample order, which is not publicly available. The diagnostic resample in aggregate row order does not reproduce that interval |
 | Field-level, topic-eligibility and decision-question agreement | **Not independently reproducible**: reported as supplied |
 | The classifications themselves | **Not reproducible here**: released as final results; re-classification needs the source papers (not redistributed) and the rubric (`RUBRIC_V3_1.md`) |
 | Validation sample draw | **Not reproducible**: frame, seed and sample list are not released; only the reported design is checked for consistency |
@@ -70,14 +71,10 @@ Each check prints `PASS`, `FAIL` or `NOT TESTABLE`; the scripts do not write int
   system working from the written instrument and the study documents. The authors checked it for allowed values and consistency with the decision rules, verified
   study identity against registry DOIs, and re-read only the studies whose topic eligibility had to be adjudicated and one study whose scanned text was re-processed.
   Outside the validation sample, classifications were **not independently re-coded**.
-* **Validation.** A random sample of 30 studies (six per domain, from a frame of 99) was classified independently by a human coder who is a **co-author**, so this is
-  not an arm's-length validation; the paper states that the coder had no access to the per-study initial classifications. Twenty-nine of the 30 were on topic and 22
-  were primary studies on the 0–4 scale; the two classifications agreed on all 22 (linear-weighted κ = 1.00).
+* **Validation.** A human co-author coded the 30 sampled cases after receiving the aggregate AI tier distribution. The project record reports no access to study-level ratings. One post-lodging correction confirmed by the human coder changed exact agreement from 22/22 to 21/22 (95.45%, linear-weighted κ = 0.9646, ordinal α = 0.9818). No revised rubric-based rationale was supplied.
 * **Plan.** The validation followed a pre-specified plan, fixed and time-stamped in a private project record before the sample was drawn. It was **not publicly
   registered**, so third parties cannot verify when it was fixed.
-* **Interpretation.** This is agreement between the initial classification and independent human coding, **not human–human inter-rater reliability**. Unanimity across
-  only 22 studies is consistent with considerably lower underlying agreement, and the bootstrap interval is degenerate [1.00, 1.00]. Agreement on some recorded fields was
-  clearly lower than on tier (comparison 0.70, setting 0.67), so only tier, domain, subcategory and design label are released.
+* **Interpretation.** The estimates compare the initial AI-assisted ratings and the amended human coder ratings. The paired-bootstrap 95% interval is 0.871–1.000 in the private sample order. The small sample, prior aggregate disclosure and post-lodging amendment limit the interpretation. The 43 differences in other recorded fields remain. Final synthesis classifications are a separate field.
 * **What the released tiers are.** Final classifications, not coder-specific scores. Raw individual codes, initial classifications, justifications and adjudication
   records are not released.
 

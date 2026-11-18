@@ -256,7 +256,9 @@ def section_aggregate():
             ta += [i] * tab[str(i)][str(j)]
             tb += [j] * tab[str(i)][str(j)]
     check("4. the aggregate agreement table holds 22 pairs", len(ta) == P["n_studies"] == 22)
-    check("4. the table is diagonal: all 22 pairs agree", all(x == y for x, y in zip(ta, tb)))
+    mismatches = [(x, y) for x, y in zip(ta, tb) if x != y]
+    check("4. exact pairs and mismatches match the amended aggregate",
+          len(ta) - len(mismatches) == P["exact_matches"] and len(mismatches) == P["disagreements"])
     k = weighted_kappa(ta, tb)
     check("4. linear-weighted kappa on tiers 0-4 equals the reported value", math.isclose(k, P["linear_weighted_kappa"]), f"{k:.4f}")
     check("4. Krippendorff's ordinal alpha equals the reported value", math.isclose(alpha_ordinal(ta, tb), P["krippendorff_alpha_ordinal"]))
@@ -269,14 +271,18 @@ def section_aggregate():
         if not math.isnan(kb):
             boots.append(kb)
     ci = [percentile(boots, 2.5), percentile(boots, 97.5)]
-    check("4. percentile bootstrap interval and number of undefined resamples equal the reported values (degenerate [1, 1])",
-          ci == P["bootstrap_95ci"] and undefined == P["bootstrap_undefined_resamples"], f"{ci}, {undefined} undefined")
+    check("4. diagnostic aggregate-order resampling has an ordered, finite interval",
+          all(math.isfinite(x) for x in ci) and -1 <= ci[0] <= ci[1] <= 1,
+          f"aggregate order {ci}, {undefined} undefined")
+    not_testable("4. exact seeded bootstrap from the archived sample order",
+                 "exact reproduction requires the original sample order, which is not publicly available; "
+                 "the diagnostic aggregate-order resampling is a different computation")
     q = A["secondary_derived_outcome_table"]
-    da = ["T3/T4" if x >= 3 else "T0-T2" for x in ta]
+    actual = Counter((x >= 3, y >= 3) for x, y in zip(ta, tb))
     check("4. derived outcome table (T3/T4 vs T0-T2) equals the reported counts",
-          (da.count("T3/T4"), da.count("T0-T2")) == (q["both_T3_T4"], q["both_T0_T2"]) and q["disagree"] == 0)
-    not_testable("4. recomputation from the two coders' study-level data", "study-level codes are withheld; the values above are reproduced from the aggregate table only, "
-                 "which is diagonal, so they do not depend on study order and cannot reveal sensitivity to any disagreement")
+          (actual[True, True], actual[False, False], actual[True, False] + actual[False, True])
+          == (q["both_T3_T4"], q["both_T0_T2"], q["disagree"]))
+    not_testable("4. recomputation from original study-level code files", "study-level codes are withheld")
     not_testable("4. field-level, topic-eligibility and decision-question agreement tables", "need study-level codes; the aggregate values are reported as supplied")
 
 
