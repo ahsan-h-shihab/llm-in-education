@@ -71,10 +71,10 @@ Each check prints `PASS`, `FAIL` or `NOT TESTABLE`; the scripts do not write int
   system working from the written instrument and the study documents. The authors checked it for allowed values and consistency with the decision rules, verified
   study identity against registry DOIs, and re-read only the studies whose topic eligibility had to be adjudicated and one study whose scanned text was re-processed.
   Outside the validation sample, classifications were **not independently re-coded**.
-* **Validation.** A human co-author coded the 30 sampled cases after receiving the aggregate AI tier distribution. The project record reports no access to study-level ratings. One post-lodging correction confirmed by the human coder changed exact agreement from 22/22 to 21/22 (95.45%, linear-weighted κ = 0.9646, ordinal α = 0.9818). No revised rubric-based rationale was supplied.
+* **Validation.** Exact agreement was 21/22 (95.45%, linear-weighted κ = 0.9646, ordinal α = 0.9818). The lodged ratings matched on all 22 cases. The human coder confirmed one later correction. No revised rubric rationale was available. The human co-author received aggregate tier counts before coding. The project record reports no access to individual ratings.
 * **Plan.** The validation followed a pre-specified plan, fixed and time-stamped in a private project record before the sample was drawn. It was **not publicly
   registered**, so third parties cannot verify when it was fixed.
-* **Interpretation.** The estimates compare the initial AI-assisted ratings and the amended human coder ratings. The paired-bootstrap 95% interval is 0.871–1.000 in the private sample order. The small sample, prior aggregate disclosure and post-lodging amendment limit the interpretation. The 43 differences in other recorded fields remain. Final synthesis classifications are a separate field.
+* **Interpretation.** The paired-bootstrap 95% interval for κ was 0.871–1.000. The small sample, advance knowledge of aggregate counts and later correction limit what this check can establish about independent agreement.
 * **What the released tiers are.** Final classifications, not coder-specific scores. Raw individual codes, initial classifications, justifications and adjudication
   records are not released.
 

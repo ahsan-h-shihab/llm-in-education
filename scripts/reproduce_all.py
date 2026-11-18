@@ -257,7 +257,7 @@ def section_aggregate():
             tb += [j] * tab[str(i)][str(j)]
     check("4. the aggregate agreement table holds 22 pairs", len(ta) == P["n_studies"] == 22)
     mismatches = [(x, y) for x, y in zip(ta, tb) if x != y]
-    check("4. exact pairs and mismatches match the amended aggregate",
+    check("4. exact matches and disagreements match the reported aggregate",
           len(ta) - len(mismatches) == P["exact_matches"] and len(mismatches) == P["disagreements"])
     k = weighted_kappa(ta, tb)
     check("4. linear-weighted kappa on tiers 0-4 equals the reported value", math.isclose(k, P["linear_weighted_kappa"]), f"{k:.4f}")

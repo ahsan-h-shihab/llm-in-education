@@ -7,7 +7,7 @@ The repository contains the rubric, the final evidence-maturity classification (
 the corpus record table with each record's synthesis status, bibliographic identifiers of the reviewed studies, aggregate agreement statistics, a public codebook, and scripts that recompute the reported
 counts and tables and regenerate the evidence-maturity figure. The reviewed papers are not redistributed; each is identified by its title and DOI and remains subject to its publisher's
 terms. The coders' study-level records, including their free-text justifications, the full texts and the working materials are not publicly
-released. The original lodged ratings had 22/22 exact matches. The corrected operative validation has 21/22 exact matches (95.45%) after the human coder confirmed the intended tier. The public aggregate confusion matrix supports independent recalculation of the point estimates (exact agreement, linear-weighted kappa and ordinal alpha). Exact reproduction of the original seeded bootstrap interval requires the original sample order, which is not publicly available. The procedure by which the 150-record corpus was assembled was not recorded and cannot be reproduced.
+released. The aggregate validation reports 21/22 exact agreement (95.45%, linear-weighted κ = 0.9646, ordinal α = 0.9818). The matrix supports independent recalculation of these point estimates. Reproducing the exact seeded bootstrap interval requires the private sample order. See the [validation summary](README.md#method-and-validation-in-brief) for the rating history. The procedure by which the 150-record corpus was assembled was not recorded and cannot be reproduced.
 
 ## What is and is not released
 

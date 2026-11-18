@@ -1,5 +1,5 @@
 {
- "_note": "Aggregate statistics for the operative validation correction entered on 18 November 2026. Historical lodged agreement is recorded separately. Study-level codes, sample identity and order are private.",
+ "_note": "Aggregate agreement for 22 cases on the ordinal scale. Individual ratings, case identities and sample order are private.",
  "sampling": {
   "stratified_random_sample_size": 30,
   "per_domain": 6,
@@ -62,7 +62,7 @@
     "4": 5
    }
   },
-  "note": "Rows are initial AI-assisted ratings and columns are human coder ratings. The public aggregate confusion matrix supports independent recalculation of the point estimates (exact agreement, linear-weighted kappa and ordinal alpha). Exact reproduction of the original seeded bootstrap interval requires the original sample order, which is not publicly available.",
+  "note": "Rows show initial AI-assisted ratings and columns show the human ratings used in the analysis. The matrix reproduces the point estimates. The exact seeded bootstrap interval requires the private sample order.",
   "exact_matches": 21,
   "disagreements": 1,
   "raw_exact_clopper_pearson_95ci": [
@@ -98,8 +98,8 @@
  },
  "amendment": {
   "date": "2026-11-18",
-  "basis": "The human coder personally confirmed that Tier 3 was the intended rating and that the lodged Tier 2 entry was erroneous.",
-  "rationale_note": "The lodged written justification describes Tier 2. No revised substantive rationale for Tier 3 was supplied with the confirmation.",
+  "basis": "The human coder confirmed one correction after lodging.",
+  "rationale_note": "No revised rubric rationale was available.",
   "historical_lodged_exact_matches": 22,
   "affected_pairs": 1,
   "amendment_changed_synthesis_classification": false,

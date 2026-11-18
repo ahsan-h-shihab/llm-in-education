@@ -24,7 +24,7 @@ All files are UTF-8 CSV with a header row, unless noted.
 |---|---|
 | `study_id`, `record_id` | Identifiers as above |
 | `review_domain`, `review_subcategory` | Domain and subcategory used in the paper |
-| `evidence_tier` | `0`, `1`, `2`, `3`, `4` or `S` (secondary synthesis): the **final classification**. The later validation amendment does not revise the synthesis tier. This field records the final corpus classification rather than either validation rating |
+| `evidence_tier` | `0`, `1`, `2`, `3`, `4` or `S` (secondary synthesis): the **final classification**. This is the final corpus classification. The two validation ratings are separate |
 | `design` | Design label (see `CODEBOOK.md`); determines the tier. Not separately validated apart from the tier |
 
 The other recorded fields (comparison, outcome construct and measure, setting, sample size, confidence, deciding question) and the free-text
@@ -39,7 +39,7 @@ justification are not released.
 Aggregate statistics only: the reported sampling design (sizes only), and for the 22 studies on the 0–4 scale in the validation sample: linear-weighted
 κ, Krippendorff's ordinal α, raw agreement, the bootstrap interval (10,000 resamples, seed 20261004), and the 5 × 5 agreement table; the derived
 outcome table (Tier 3/4 versus Tiers 0–2); agreement on secondary-synthesis status and on topic eligibility for all 30 studies; agreement on the
-deciding question and the field-level raw agreement. The correction metadata distinguishes the original lodged agreement (22/22) from the corrected operative agreement (21/22). Its rationale note records that the lodged justification describes Tier 2 and that no revised substantive rationale was supplied for the corrected rating. The public aggregate confusion matrix supports independent recalculation of the point estimates (exact agreement, linear-weighted kappa and ordinal alpha). Exact reproduction of the original seeded bootstrap interval requires the original sample order, which is not publicly available.
+deciding question and the field-level raw agreement. The matrix gives 21/22 exact matches (95.45%). It supports recalculation of exact agreement, linear-weighted κ (0.9646) and ordinal α (0.9818). The exact seeded bootstrap interval requires the private sample order. The correction metadata records how the analysis differs from the lodged ratings.
 
 ## results/reported_results.json
 
